@@ -1,0 +1,27 @@
+<script>
+  route = [0]
+  route_length = 10
+  //Criação aleatória de pontos de interesse
+  for(var i = 1; i <= route_length; i++){
+    route[i] = Math.floor(Math.random()*10)
+  }
+  //Remoção de pontos de interesse duplicados
+  function RemoveDups(route){
+    var unique = {}
+    route.forEach(function(i){
+      if(!unique[i]){
+        unique[i] = true;
+      }
+    })
+    return Object.keys(unique)
+  }
+  console.log(route)
+  console.log(RemoveDups(route))
+  //Calculando melhor rota 
+  //Método Heurístico
+  
+  //Método geométrico
+  
+  //Problema da decisão 
+  
+</script>

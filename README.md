@@ -5,9 +5,9 @@ Abordagem a partir de problemas sempre solúveis. Problema estático.
 Premissa: A linguagem emergente de um alfabeto não pode ser estática, quando as instâncias a serem codificadas são dinâmicas. 
 O que define o limite de um sistema de codificação é seu alfabeto e não sua linguagem. 
 Um alfabeto é o conjunto máximo sob o qual se resolve problemas, sendo assim, instâncias não codificáveis são irreais para o universo de resolução. 
-Instâncias reais são codificáveis dentro do universo de resolução. 
-Uma instância pode ser parcialmente real ou incompleta. 
-Para um sistema de alfabeto dinâmico, qualquer instância é real. 
+Instâncias reais são codificáveis dentro do universo [possível] de resolução. 
+Uma instância pode ser parcialmente real ou incompleta, se existirem instâncias impossíveis para o universo da linguagem, mas não para o universo do alfabeto. 
+Para um sistema de alfabeto absolutamente dinâmico, qualquer instância é real. 
 Para um sistema de alfabeto estático, algumas instâncias podem ser irreais e instâncias reais podem ser momentaneamente parciais. 
 
 S: alfabeto sob o qual podem ser codificadas as instâncias de P. 
